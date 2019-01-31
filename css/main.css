@@ -11,6 +11,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -20,4 +22,15 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+}
+
+a {
+  color: currentColor;
+}
+
+.card {
+  overflow: hidden;
+
+  background-color: #d9ccaa;
+  border-radius: 6px;
 }
